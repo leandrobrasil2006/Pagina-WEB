@@ -1,0 +1,187 @@
+1) <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+
+    <title>Cristiano Ronaldo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family:'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #5c0808d2;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .h1 {
+            font-size: 3rem;
+            font-family:"Rubik Vinyl", serif;
+        }
+
+        .conteudo-principal {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .imagem-lateral {
+            width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(139, 31, 31, 0.863);
+        }
+
+        .imagem-lateral img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .texto-central {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .texto-central h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .texto-central p {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        .bio {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            text-align: justify;
+        }
+
+        
+        .recordes {
+            font-size: 30px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #5c0808d2;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(68, 49, 49, 0);
+            text-align: center;
+            list-style-type: none;
+        }
+
+        .text{color: #f4f4f4; text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.756);}
+
+        footer {
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            background-color: #5a0a0a;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            font-size: 1.2rem;
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            padding: 8px 15px;
+            background-color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .social-links a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1">Cristiano Ronaldo</h1>
+    </header>
+
+    
+    <section class="conteudo-principal">
+        <div class="imagem-lateral">
+            <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=850,quality=75,format=webp/uploads/2024/09/cristiano-ronaldo-al-nassr.jpeg" alt="Cristiano Ronaldo">
+        </div>
+
+        
+        <div class="texto-central">
+            <h2 class="h1">Sobre:</h2>
+            <p class="bio">Cristiano Ronaldo dos Santos Aveiro nasceu em Funchal, Madeira, em 5 de fevereiro de 1985. Considerado um dos maiores jogadores de futebol de todos os tempos, ele começou sua carreira no Sporting CP antes de se transferir para o Manchester United, onde começou a conquistar os primeiros títulos de sua carreira. Sua incrível habilidade e ética de trabalho o levaram a conquistar prêmios internacionais como o Ballon d'Or.</p>
+            <p class="blo">Além de sua carreira no futebol, Também é um dos atletas mais seguidos nas redes sociais, onde compartilha aspectos de sua vida pessoal e profissional.</p>
+        </div>
+
+        <div class="imagem-lateral">
+            <img src="https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/c779b04e-b599-46f4-a6e8-aeb2141fdb2c.jpeg" alt="Cristiano Ronaldo Celebrando">
+        </div>
+    </section>
+
+
+    <section class="recordes">
+        <div class="text">
+        <h2>Recordes de Cristiano Ronaldo</h2>
+        <ol class="recordes">
+            <li>Maior artilheiro da história da UEFA Champions League.</li>
+            <li>Maior número de gols por uma seleção nacional (Portugal).</li>
+            <li>5 vezes vencedor do prêmio Ballon d'Or (Melhor jogador do mundo).</li>
+            <li>Primeiro jogador a marcar 100 gols em competições europeias.</li>
+            <li>Maior número de gols em uma única edição de Copa do Mundo (2022).</li>
+        </ol>
+    </div>
+    </section>
+
+    <footer>
+        <p>Saiba mais sobre Cristiano Ronaldo em seu<a href="https://www.cristianoronaldo.com/" target="_blank">Site Oficial</a>.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/cristiano/" target="_blank">Instagram</a>
+            <a href="https://twitter.com/Cristiano" target="_blank">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
